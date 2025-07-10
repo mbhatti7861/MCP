@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "awslabs.terraform-mcp-server": {
+      "command": "python3.10",
+      "args": ["-m", "awslabs.terraform_mcp_server.server"],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  },
+  "demo_info": {
+    "name": "Live Terraform MCP Demo",
+    "description": "Real connection to AWS Terraform MCP Server",
+    "server_type": "official_aws_labs",
+    "protocol": "stdio",
+    "features": [
+      "Live AWS best practices (87K+ characters)",
+      "Real Terraform command execution",
+      "Live security scanning with Checkov",
+      "Real AWS provider documentation search",
+      "Live workflow automation"
+    ],
+    "tools": 7,
+    "resources": 4,
+    "connection": "live"
+  }
+}
