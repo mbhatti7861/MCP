@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aws-diagram": {
+      "command": "python",
+      "args": ["-m", "aws_diagram_mcp_server"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
